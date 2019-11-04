@@ -14,7 +14,7 @@ class Auth extends CI_Controller
 
     public function index()
     {
-        $data['title'] = "CI Login";
+        $data['title'] = "CI Login Master";
         $this->load->view('templates/auth_header', $data);
         $this->load->view('auth/login');
         $this->load->view('templates/auth_footer');
